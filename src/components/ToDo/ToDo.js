@@ -15,10 +15,9 @@ const ToDo = () => {
     }
      const handleKeypress = (e) => {
        //it triggers by pressing the enter key
-      if (e.key === 'Enter') 
-      {
+      if (e.key === 'Enter') {
           addItem();
-     }
+      }
      };
     const deleteItem = (id)=>{
         const updatedItems = items.filter((item,ind)=>{
